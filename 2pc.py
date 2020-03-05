@@ -38,7 +38,7 @@ try:
 
         INSERT INTO client_details (booking_id, client_name, hotel_name, arrival, departure)
         values
-            ('123','Peter', 'Kyiv', '01.12.2020', '12.03.2020');
+            ('127','Peter', 'Kyiv', '01.12.2020', '12.03.2020');
         
         PREPARE TRANSACTION 'update_hotel';
 	""")
@@ -51,7 +51,7 @@ try:
 
     INSERT INTO client_details (booking_id, client_name, from_location, to_location, flight_date)
     values
-        ('121','Peter', 'Lviv', 'Kyiv', '01.12.2020');
+        ('125','Peter', 'Lviv', 'Kyiv', '01.12.2020');
 
     PREPARE TRANSACTION 'update_flight';
     """)

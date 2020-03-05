@@ -1,3 +1,4 @@
+-- створював таблицю
 CREATE TABLE client_details(
    booking_id VARCHAR (50) UNIQUE NOT NULL,
    client_name VARCHAR (50)  NOT NULL,
@@ -6,8 +7,6 @@ CREATE TABLE client_details(
    departure VARCHAR (50)  NOT NULL
 );
 
-COMMIT PREPARED 'update_hotel';
+-- дивився вміст таблиці
+select * from client_details;
 
-select * from	 client_details;
-
-TRUNCATE client_details;
