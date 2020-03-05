@@ -1,0 +1,11 @@
+/etc/postgresql/9.5/main/postgresql.conf
+
+
+return 
+max_prepared_transactions = 10
+max_connections = 10
+
+
+to 
+max_prepared_transactions = 0
+max_connections = 100
